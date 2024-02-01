@@ -1,0 +1,14 @@
+{
+  "type": "sqlite",
+  "database": "./utils/data-set/dua_main.sqlite",
+  "synchronize": false,
+  "logging": false,
+  "entities": ["./src/entites/**/*.ts"],
+  "subscribers": ["./src/subscriber/**/*.ts"],
+  "migrations": ["./src/migration/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscribers"
+  }
+}
